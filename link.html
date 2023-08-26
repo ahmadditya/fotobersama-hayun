@@ -1,0 +1,151 @@
+  <!---
+                <div class="services__card">
+                    <h3 class="services__title">Foto <br>Booth</h3>
+
+                    <span class="services__button">
+                        Lihat <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Foto Booth</h3>
+
+                            <p class="services__modal-description">
+                               <img src="assets/clien/qr.png" style="border-radius: 20px;">
+                            </p>
+
+                            <ul class="services__modal-list">
+                               <a href="#" class="button button--ghost">
+                                        Link
+                                </a>
+                                <style type=>
+                                    body{ padding: 10px;
+                                
+                                }
+                                .sosmed_inline img{
+                                    display:inline;
+                                    margin:2px;
+                                    border-radius:6px;
+                                    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+                                    width:44px;
+                                    opacity:1;
+                                    cursor:pointer;
+                                }
+                                .sosmed_inline img:hover{
+                                    opacity:0.8;
+                                    transform:scale(1.1);
+                                }
+                                </style>
+                                            <p><b>Bagikan Link Ini :</b></p>
+                                <p class="sosmed_inline">
+                                <img src="res/facebook.png" onclick="_fb();" alt="facebook">
+                                <img src="res/whatapps.png" onclick="_whatapps();" alt="whatapps">
+                                <img src="res/telegram.png" onclick="_telegram();" alt="telegram">
+                                </p>
+                                
+                                <script>
+                                  var title = "Link Foto Bersama Resepsi Pernikahan Rifky & Hayun";
+                                var deskripsi= "https://drive.google.com/drive/folders/1oNDftxhcjva9JX3Zf9_qtKOb1mYYNtlf?usp=sharing";
+                                var currentLocation = window.location;
+                                var top = (screen.height - 570) / 2;
+                                var left = (screen.width - 570) / 2;
+                                var params = "menubar=no,toolbar=no,status=no,width=570,height=570,top=" + top + ",left=" + left;
+                                console.log(encodeURI(title+deskripsi));
+                                    function _fb(){
+                                        var url="https://web.facebook.com/sharer.php?u=" + encodeURI(currentLocation);
+                                        window.open(url,'NewWindow',params);
+                                    }
+        
+                                    function _whatapps(){
+                                        var url="https://api.whatsapp.com/send?phone=&text=" + encodeURI(title +" "+deskripsi);
+                                        window.open(url,'NewWindow',params);
+                                    }
+                                    
+                                    function _telegram(){
+                                        var url="https://telegram.me/share/url?url=" + encodeURI(currentLocation) + "&text=" +encodeURI(title + deskripsi);
+                                        window.open(url,'NewWindow',params);
+                                    }
+                                    
+                                </script>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                <div class="services__card">
+                    <h3 class="services__title">Foto <br>Graduation</h3>
+
+                    <span class="services__button">
+                        Lihat <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Foto Graduation</h3>
+
+                            <p class="services__modal-description">
+                               <img src="assets/clien/qr.png" style="border-radius: 20px;">
+                            </p>
+
+                            <ul class="services__modal-list">
+                               <a href="#" class="button button--ghost">
+                                        Link
+                                </a>
+                                <style type=>
+                                    body{ padding: 10px;
+                                
+                                }
+                                .sosmed_inline img{
+                                    display:inline;
+                                    margin:2px;
+                                    border-radius:6px;
+                                    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+                                    width:44px;
+                                    opacity:1;
+                                    cursor:pointer;
+                                }
+                                .sosmed_inline img:hover{
+                                    opacity:0.8;
+                                    transform:scale(1.1);
+                                }
+                                </style>
+                                            <p><b>Bagikan Link Ini :</b></p>
+                                <p class="sosmed_inline">
+                                <img src="res/facebook.png" onclick="_fb();" alt="facebook">
+                                <img src="res/whatapps.png" onclick="_whatapps();" alt="whatapps">
+                                <img src="res/telegram.png" onclick="_telegram();" alt="telegram">
+                                </p>
+                                
+                                <script>
+                                var title = "Link Foto Bersama Resepsi Pernikahan Rifky & Hayun";
+                                var deskripsi= "https://drive.google.com/drive/folders/1oNDftxhcjva9JX3Zf9_qtKOb1mYYNtlf?usp=sharing";
+                                var currentLocation = window.location;
+                                var top = (screen.height - 570) / 2;
+                                var left = (screen.width - 570) / 2;
+                                var params = "menubar=no,toolbar=no,status=no,width=570,height=570,top=" + top + ",left=" + left;
+                                console.log(encodeURI(title+deskripsi));
+                                    function _fb(){
+                                        var url="https://web.facebook.com/sharer.php?u=" + encodeURI(currentLocation);
+                                        window.open(url,'NewWindow',params);
+                                    }
+        
+                                    function _whatapps(){
+                                        var url="https://api.whatsapp.com/send?phone=&text=" + encodeURI(title +" "+deskripsi);
+                                        window.open(url,'NewWindow',params);
+                                    }
+                                    
+                                    function _telegram(){
+                                        var url="https://telegram.me/share/url?url=" + encodeURI(currentLocation) + "&text=" +encodeURI(title + deskripsi);
+                                        window.open(url,'NewWindow',params);
+                                    }
+                                    
+                                </script>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            -->
